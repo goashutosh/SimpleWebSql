@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebSql", "WebApplication10\SimpleWebSql.csproj", "{FACF4F53-BB2C-4E19-88E1-AF2F2E104BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebSql.Data", "SimpleWebSql.Data\SimpleWebSql.Data.csproj", "{FD03EA79-1466-4BCF-8CED-73407688F2AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACF4F53-BB2C-4E19-88E1-AF2F2E104BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACF4F53-BB2C-4E19-88E1-AF2F2E104BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACF4F53-BB2C-4E19-88E1-AF2F2E104BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACF4F53-BB2C-4E19-88E1-AF2F2E104BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD03EA79-1466-4BCF-8CED-73407688F2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD03EA79-1466-4BCF-8CED-73407688F2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD03EA79-1466-4BCF-8CED-73407688F2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD03EA79-1466-4BCF-8CED-73407688F2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C9C95B0-4D31-4DC6-B8D9-BE4A9EDEFC12}
+	EndGlobalSection
+EndGlobal
