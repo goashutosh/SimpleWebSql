@@ -23,6 +23,7 @@ namespace SimpleWebSql.Pages
         public async Task OnGet()
         {
             MovieData = await _movieDbContext.Movie.ToListAsync();
+
         }
     }
 }
