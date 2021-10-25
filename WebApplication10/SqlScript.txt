@@ -1,0 +1,25 @@
+﻿USE [MovieDB]
+GO
+
+/****** Object:  Table [dbo].[Movie]    Script Date: 10/23/2021 8:04:02 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Movie](
+	[Id] [int] NOT NULL,
+	[Title] [nchar](100) NULL,
+	[ReleaseDate] [smalldatetime] NULL,
+	[Genre] [nchar](10) NULL,
+	[Price] [decimal](18, 0) NOT NULL
+) ON [PRIMARY]
+GO
+
+
+insert into Movie VALUES ('1','Terminator','2010-01-10 00:00:00',3,300)
+insert into Movie VALUES ('2','Matrix','2010-01-10 00:00:00',5,300)
+insert into Movie VALUES ('3','The Iland','2010-01-10 00:00:00',4,300)
+insert into Movie VALUES ('4','John Wrick','2010-01-10 00:00:00',2,300)
+

@@ -13,7 +13,7 @@ namespace SimpleWebSql.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private MovieDbContext _movieDbContext;
-        public Movie MovieData { get; set; }
+        public List<Movie> MovieData { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger, MovieDbContext movieDbContext)
         {
@@ -23,12 +23,7 @@ namespace SimpleWebSql.Pages
 
         public async Task OnGet()
         {
-
-
-            MovieData = await _movieDbContext.Movie.FirstOrDefaultAsync();
-
-           
-            
+            MovieData = await _movieDbContext.Movie.ToListAsync();
         }
     }
 }
